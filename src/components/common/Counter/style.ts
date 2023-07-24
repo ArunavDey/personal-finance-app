@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const CounterContainer = styled.div`
   display: flex;
@@ -21,4 +21,3 @@ export const CounterValue = styled.div`
   font-weight: 700;
   color: #fe8019;
 `;
-
