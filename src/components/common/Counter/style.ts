@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
-export const CounterContainer = styled.div`
+export const FlexBox = styled.div`
   display: flex;
+`;
+
+export const CounterContainer = styled(FlexBox)`
   flex-direction: column;
   height: 12rem;
   width: 12rem;
